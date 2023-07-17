@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const path = require('path');
-const jwt = require('jsonwebtoken');
 
 require("colors");
 require("./database/connect");

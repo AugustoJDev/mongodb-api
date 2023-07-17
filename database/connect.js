@@ -1,6 +1,4 @@
-const {
-    MongoClient
-} = require('mongodb');
+const { MongoClient } = require('mongodb');
 
 class DatabaseConnection {
     constructor(uri) {
