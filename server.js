@@ -92,10 +92,6 @@ app.patch("/editUser", authMiddleware, async (req, res) => {
   res.send(result);
 });
 
-app.post("/POST", authMiddleware, async (req, res) => {
-  res.send("Example"); 
-});
-
 app.listen(port, () => {
   console.log("App Listening on Port: " + port)
 });

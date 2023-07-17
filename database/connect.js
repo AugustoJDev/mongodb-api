@@ -169,6 +169,6 @@ class DatabaseConnection {
     };
 };
 
-const conn = new DatabaseConnection(process.env.URL);
+const conn = new DatabaseConnection(process.env.URI);
 
 global.conn = conn;
