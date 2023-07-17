@@ -1,4 +1,0 @@
-run = "node server.js"
-
-# [nix]
-# channel = "stable-21_11"
